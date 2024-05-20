@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/group_6"
+    tools:context=".SigninActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="238dp"
+        android:layout_height="46dp"
+        android:background="@drawable/rectangle_35"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/etEmail"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:hint="   Email or Mobile Number"
+            android:background="@android:color/transparent"
+            android:textColorHint="@color/white"
+            android:textSize="14dp"
+            android:text=""
+            android:inputType="text"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="238dp"
+        android:layout_height="46dp"
+        android:background="@drawable/rectangle_35"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:hint="   Password"
+            android:background="@android:color/transparent"
+            android:textColorHint="@color/white"
+            android:textSize="14dp"
+            android:textColor="@color/white"
+            android:text=""
+            android:inputType="textPassword"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="23dp"/>
+    <ImageButton
+        android:id="@+id/ibSignin"
+        android:layout_width="234dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/group_4" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="238dp"
+        android:layout_height="18dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="OR"
+            android:textColor="@color/white"
+            android:textSize="17dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <ImageButton
+        android:layout_width="234dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/group_8" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="238dp"
+        android:layout_height="18dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:text="Forgot Password?"
+            android:textColor="@color/white"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
